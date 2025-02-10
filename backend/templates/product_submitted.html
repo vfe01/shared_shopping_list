@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Product added!{% endblock %}
+
+{% block content %}'
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div>
+        <h1>Product was successfully added!</h1>
+        <h2>Press <a href="{{ url_for('form') }}">here</a> to go back to the home page.</h2>
+    </div>  
+</div>
+{% endblock %}
